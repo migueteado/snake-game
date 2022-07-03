@@ -49,6 +49,7 @@ function startGame() {
   let squares = document.querySelectorAll(".grid div");
   randomApple(squares);
   direction = 1;
+  score = 0;
   scoreDisplay.innerHTML = score;
   intervalTime = 1000;
   currentSnake = [2, 1, 0];
